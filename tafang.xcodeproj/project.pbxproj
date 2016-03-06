@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C37F325C1C8C03CE00EA2490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37F325B1C8C03CE00EA2490 /* AppDelegate.swift */; };
+		C37F325E1C8C03CE00EA2490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37F325D1C8C03CE00EA2490 /* ViewController.swift */; };
+		C37F32611C8C03CE00EA2490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37F325F1C8C03CE00EA2490 /* Main.storyboard */; };
+		C37F32631C8C03CE00EA2490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37F32621C8C03CE00EA2490 /* Assets.xcassets */; };
+		C37F32661C8C03CE00EA2490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37F32641C8C03CE00EA2490 /* LaunchScreen.storyboard */; };
+		C37F32711C8C03CE00EA2490 /* tafangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37F32701C8C03CE00EA2490 /* tafangTests.swift */; };
+		C37F327C1C8C03CE00EA2490 /* tafangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37F327B1C8C03CE00EA2490 /* tafangUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C37F326D1C8C03CE00EA2490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C37F32501C8C03CE00EA2490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37F32571C8C03CE00EA2490;
+			remoteInfo = tafang;
+		};
+		C37F32781C8C03CE00EA2490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C37F32501C8C03CE00EA2490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37F32571C8C03CE00EA2490;
+			remoteInfo = tafang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C37F32581C8C03CE00EA2490 /* tafang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tafang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37F325B1C8C03CE00EA2490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C37F325D1C8C03CE00EA2490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C37F32601C8C03CE00EA2490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C37F32621C8C03CE00EA2490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C37F32651C8C03CE00EA2490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C37F32671C8C03CE00EA2490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37F326C1C8C03CE00EA2490 /* tafangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tafangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37F32701C8C03CE00EA2490 /* tafangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tafangTests.swift; sourceTree = "<group>"; };
+		C37F32721C8C03CE00EA2490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37F32771C8C03CE00EA2490 /* tafangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tafangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37F327B1C8C03CE00EA2490 /* tafangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tafangUITests.swift; sourceTree = "<group>"; };
+		C37F327D1C8C03CE00EA2490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C37F32551C8C03CE00EA2490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37F32691C8C03CE00EA2490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37F32741C8C03CE00EA2490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C37F324F1C8C03CE00EA2490 = {
+			isa = PBXGroup;
+			children = (
+				C37F325A1C8C03CE00EA2490 /* tafang */,
+				C37F326F1C8C03CE00EA2490 /* tafangTests */,
+				C37F327A1C8C03CE00EA2490 /* tafangUITests */,
+				C37F32591C8C03CE00EA2490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C37F32591C8C03CE00EA2490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C37F32581C8C03CE00EA2490 /* tafang.app */,
+				C37F326C1C8C03CE00EA2490 /* tafangTests.xctest */,
+				C37F32771C8C03CE00EA2490 /* tafangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C37F325A1C8C03CE00EA2490 /* tafang */ = {
+			isa = PBXGroup;
+			children = (
+				C37F325B1C8C03CE00EA2490 /* AppDelegate.swift */,
+				C37F325D1C8C03CE00EA2490 /* ViewController.swift */,
+				C37F325F1C8C03CE00EA2490 /* Main.storyboard */,
+				C37F32621C8C03CE00EA2490 /* Assets.xcassets */,
+				C37F32641C8C03CE00EA2490 /* LaunchScreen.storyboard */,
+				C37F32671C8C03CE00EA2490 /* Info.plist */,
+			);
+			path = tafang;
+			sourceTree = "<group>";
+		};
+		C37F326F1C8C03CE00EA2490 /* tafangTests */ = {
+			isa = PBXGroup;
+			children = (
+				C37F32701C8C03CE00EA2490 /* tafangTests.swift */,
+				C37F32721C8C03CE00EA2490 /* Info.plist */,
+			);
+			path = tafangTests;
+			sourceTree = "<group>";
+		};
+		C37F327A1C8C03CE00EA2490 /* tafangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C37F327B1C8C03CE00EA2490 /* tafangUITests.swift */,
+				C37F327D1C8C03CE00EA2490 /* Info.plist */,
+			);
+			path = tafangUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C37F32571C8C03CE00EA2490 /* tafang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37F32801C8C03CE00EA2490 /* Build configuration list for PBXNativeTarget "tafang" */;
+			buildPhases = (
+				C37F32541C8C03CE00EA2490 /* Sources */,
+				C37F32551C8C03CE00EA2490 /* Frameworks */,
+				C37F32561C8C03CE00EA2490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tafang;
+			productName = tafang;
+			productReference = C37F32581C8C03CE00EA2490 /* tafang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C37F326B1C8C03CE00EA2490 /* tafangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37F32831C8C03CE00EA2490 /* Build configuration list for PBXNativeTarget "tafangTests" */;
+			buildPhases = (
+				C37F32681C8C03CE00EA2490 /* Sources */,
+				C37F32691C8C03CE00EA2490 /* Frameworks */,
+				C37F326A1C8C03CE00EA2490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C37F326E1C8C03CE00EA2490 /* PBXTargetDependency */,
+			);
+			name = tafangTests;
+			productName = tafangTests;
+			productReference = C37F326C1C8C03CE00EA2490 /* tafangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C37F32761C8C03CE00EA2490 /* tafangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37F32861C8C03CE00EA2490 /* Build configuration list for PBXNativeTarget "tafangUITests" */;
+			buildPhases = (
+				C37F32731C8C03CE00EA2490 /* Sources */,
+				C37F32741C8C03CE00EA2490 /* Frameworks */,
+				C37F32751C8C03CE00EA2490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C37F32791C8C03CE00EA2490 /* PBXTargetDependency */,
+			);
+			name = tafangUITests;
+			productName = tafangUITests;
+			productReference = C37F32771C8C03CE00EA2490 /* tafangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C37F32501C8C03CE00EA2490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Yang;
+				TargetAttributes = {
+					C37F32571C8C03CE00EA2490 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C37F326B1C8C03CE00EA2490 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C37F32571C8C03CE00EA2490;
+					};
+					C37F32761C8C03CE00EA2490 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C37F32571C8C03CE00EA2490;
+					};
+				};
+			};
+			buildConfigurationList = C37F32531C8C03CE00EA2490 /* Build configuration list for PBXProject "tafang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C37F324F1C8C03CE00EA2490;
+			productRefGroup = C37F32591C8C03CE00EA2490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C37F32571C8C03CE00EA2490 /* tafang */,
+				C37F326B1C8C03CE00EA2490 /* tafangTests */,
+				C37F32761C8C03CE00EA2490 /* tafangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C37F32561C8C03CE00EA2490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37F32661C8C03CE00EA2490 /* LaunchScreen.storyboard in Resources */,
+				C37F32631C8C03CE00EA2490 /* Assets.xcassets in Resources */,
+				C37F32611C8C03CE00EA2490 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37F326A1C8C03CE00EA2490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37F32751C8C03CE00EA2490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C37F32541C8C03CE00EA2490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37F325E1C8C03CE00EA2490 /* ViewController.swift in Sources */,
+				C37F325C1C8C03CE00EA2490 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37F32681C8C03CE00EA2490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37F32711C8C03CE00EA2490 /* tafangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37F32731C8C03CE00EA2490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37F327C1C8C03CE00EA2490 /* tafangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C37F326E1C8C03CE00EA2490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37F32571C8C03CE00EA2490 /* tafang */;
+			targetProxy = C37F326D1C8C03CE00EA2490 /* PBXContainerItemProxy */;
+		};
+		C37F32791C8C03CE00EA2490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37F32571C8C03CE00EA2490 /* tafang */;
+			targetProxy = C37F32781C8C03CE00EA2490 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C37F325F1C8C03CE00EA2490 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37F32601C8C03CE00EA2490 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C37F32641C8C03CE00EA2490 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37F32651C8C03CE00EA2490 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C37F327E1C8C03CE00EA2490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C37F327F1C8C03CE00EA2490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C37F32811C8C03CE00EA2490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tafang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lestour.tafang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C37F32821C8C03CE00EA2490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tafang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lestour.tafang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C37F32841C8C03CE00EA2490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tafangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lestour.tafangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tafang.app/tafang";
+			};
+			name = Debug;
+		};
+		C37F32851C8C03CE00EA2490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tafangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lestour.tafangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tafang.app/tafang";
+			};
+			name = Release;
+		};
+		C37F32871C8C03CE00EA2490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tafangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lestour.tafangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tafang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C37F32881C8C03CE00EA2490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tafangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lestour.tafangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tafang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C37F32531C8C03CE00EA2490 /* Build configuration list for PBXProject "tafang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37F327E1C8C03CE00EA2490 /* Debug */,
+				C37F327F1C8C03CE00EA2490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37F32801C8C03CE00EA2490 /* Build configuration list for PBXNativeTarget "tafang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37F32811C8C03CE00EA2490 /* Debug */,
+				C37F32821C8C03CE00EA2490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C37F32831C8C03CE00EA2490 /* Build configuration list for PBXNativeTarget "tafangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37F32841C8C03CE00EA2490 /* Debug */,
+				C37F32851C8C03CE00EA2490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C37F32861C8C03CE00EA2490 /* Build configuration list for PBXNativeTarget "tafangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37F32871C8C03CE00EA2490 /* Debug */,
+				C37F32881C8C03CE00EA2490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C37F32501C8C03CE00EA2490 /* Project object */;
+}
