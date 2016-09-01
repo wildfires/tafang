@@ -15,7 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //创建窗口
+        window = UIWindow(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT))
+        
+        //创建根视图控制器
+        self.window?.rootViewController = MainTabBarController()
+        
+        //显示窗口
+        window?.makeKeyAndVisible()
+        //print("字体：\(UIFont.familyNames())")
         return true
     }
 
